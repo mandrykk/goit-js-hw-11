@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(to right, #d2e0ed, #6e8493);
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: white;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+  width: 50%;
+  outline-color: #f0ba4f;
+  border: 2px solid #df904e;
+}
+
+.search-button {
+  border: 2px solid #76a9d2;
+  border-radius: 5%;
+  background: none;
+  font-weight: 500;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+
+.photo-card {
+  background: white;
+  margin-bottom: 3%;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 12%), 0 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.info-item {
+  margin: 0;
+  text-align: center;
+}
+
+.info-text {
+  font-weight: 400;
+}
+
+.load-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.load-btn > button {
+  background: white;
+  border: 3px solid #f0ba4f;
+  padding: 6px;
+  font-weight: 500;
+}
+
+button:hover {
+  box-shadow: -1px 6px 10px 0 rgba(120, 60, 20, 0.2);
+}
